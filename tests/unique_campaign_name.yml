@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: campaign_summary
+    columns:
+      - name: campaign_name
+        tests:
+          - unique
+          - not_null
